@@ -1,64 +1,134 @@
 # Voipano
 
-### Cloud Telephony · Contact Center · Developer APIs
+**AI-powered contact center · Cloud telephony · Programmable voice communications**
 
-**Voipano** builds cloud communication and contact center technology for businesses and developers.
+**Voipano (ویپانو)** develops cloud telephony, contact center, voice automation, and developer integration capabilities for businesses. Our platform brings calling, call routing, team operations, analytics, and AI-assisted communication workflows into a connected environment.
 
-We provide cloud telephony solutions and developer tools that help applications integrate with business communication workflows.
+**[Official website](https://voipano.com)** · **[AI Contact Center](https://voipano.com/ai-call-center)** · **[Call Center API](https://voipano.com/call-center-api)** · **[All public repositories](https://github.com/orgs/voipano/repositories)**
 
-🌐 **Website:** [voipano.com](https://voipano.com)
+## What we build
 
-## What We Work On
+| Focus area | What it enables |
+| --- | --- |
+| **AI-powered communications** | AI call assistance, voice reception, conversation insights, and intelligent categorization |
+| **Programmable voice APIs** | API-driven calling, webhooks, voice OTP, and integrations with business systems |
+| **Cloud business telephony** | Business numbers, IVR, inbound/outbound calls, and flexible routing |
+| **Contact center operations** | Call queues, extensions, remote agents, business hours, and access management |
+| **Monitoring & automation** | Call reports, recording, live supervision, CRM connections, and outbound workflows |
+| **Cloud access & infrastructure** | Browser and device-based calling, fallback paths, and integration capabilities |
 
-- **Cloud Telephony** — Cloud-based business calling solutions.
-- **Contact Center Technology** — Tools for managing business communication workflows.
-- **Developer APIs** — Programmatic integration with Voipano services.
-- **Voice Automation** — Call events, webhooks, voice OTP, and workflow integrations.
-- **AI-Assisted Communications** — Exploring intelligent call handling, automation, and voice-driven experiences.
+## Platform capabilities
 
-Product capabilities and availability are described in the official product documentation.
+The following capabilities are described in Voipano's product materials. Follow each link for its scope and usage details; availability, configuration, and integration access may vary by service.
 
-## Official Developer SDKs
+### AI Contact Center
 
-Voipano maintains official open-source SDKs for its Public API.
+AI-supported phone experiences, conversation understanding, and follow-up workflows. [Explore more](https://voipano.com/ai-call-center).
 
-| Language / Framework | GitHub Repository | Package Registry |
-|---|---|---|
-| JavaScript / TypeScript | [node-voipano](https://github.com/voipano/node-voipano) | [npm](https://www.npmjs.com/package/voipano) |
-| Python | [python-voipano](https://github.com/voipano/python-voipano) | [PyPI](https://pypi.org/project/voipano/) |
-| PHP / Laravel | [laravel-voipano](https://github.com/voipano/laravel-voipano) | [Packagist](https://packagist.org/packages/voipano/laravel) |
+- **[AI Call Assistant](https://voipano.com/features/ai-call-assistant)** — Answers recurring questions and routes callers to an appropriate next step.
+- **[AI Conversation Summaries](https://voipano.com/features/ai-conversation-summary)** — Turns call content into structured summaries for faster follow-up.
+- **[Call Sentiment Analysis](https://voipano.com/features/ai-sentiment-analysis)** — Identifies positive, neutral, or negative conversation trends.
+- **[Smart Voice Receptionist](https://voipano.com/features/ai-smart-voice-assistant)** — Supports voice-led appointment booking, order capture, and request follow-up.
+- **[Conversation Topic Detection](https://voipano.com/features/ai-topic-detection)** — Categorizes calls by subject and customer intent.
+- **[Conversation Quality Insights](https://voipano.com/features/ai-quality-insights)** — Extracts reviewable indicators to help teams improve call handling.
 
-Our SDKs help developers work with supported Voipano API capabilities, including:
+### Advanced APIs & Voice Automation
 
-- Calling and communication workflows
-- Contact management
-- Call reporting
-- Voice OTP
-- Webhook integrations
+Programmable calling and real-time integration points for developers. [Explore more](https://voipano.com/call-center-api).
 
-Refer to each SDK's README for installation instructions, supported operations, and usage examples.
+- **[Number-Masked Calling](https://voipano.com/features/secure-call)** — Connects parties without disclosing their real phone numbers to each other.
+- **[Click to Call](https://voipano.com/features/click-to-call)** — Starts calls from a CRM or business application without manual dialing.
+- **[WebRTC Calling](https://voipano.com/features/webrtc-calling)** — Supports making and receiving calls from a browser.
+- **[AMI Integration](https://voipano.com/features/ami-integration)** — Provides controlled access to operational AMI events and commands.
+- **[Scheduled Automated Calls](https://voipano.com/features/scheduled-automatic-call)** — Places voice calls at configured times for reminders and notifications.
+- **[Call Notifications](https://voipano.com/features/call-notification)** — Initiates an API-driven call and plays selected audio.
+- **[Voice OTP](https://voipano.com/features/voice-otp)** — Delivers one-time passcodes generated by the requesting application via phone call.
+- **[In-Call Hooks](https://voipano.com/features/in-call-hook)** — Calls an API at selected points in a call for dynamic routing and decisions.
 
-## Getting Started
+### Business Telephony & Call Routing
 
-1. Choose the SDK for your application.
-2. Follow its installation and authentication instructions.
-3. Explore supported API operations and examples.
-4. Keep API credentials in secure environment variables or a secrets manager.
+Core cloud calling and structured caller journeys.
 
-Never commit API tokens or customer information to public repositories.
+- **[Dedicated Cloud Numbers](https://voipano.com/features/dedicated-cloud-number)** — Provides business phone numbers for inbound and outbound calls.
+- **[Interactive Voice Response (IVR)](https://voipano.com/features/interactive-voice-response)** — Greets callers and directs them to a team or extension.
+- **[Multi-Level IVR](https://voipano.com/features/multi-level-ivr)** — Builds multi-step menus for more complex call-routing journeys.
+- **[Simultaneous Calls](https://voipano.com/features/simultaneous-calls)** — Supports multiple operators handling calls concurrently with the necessary channels.
+- **[Inbound and Outbound Calls](https://voipano.com/features/inbound-outbound-calls)** — Handles business calls over an internet connection.
+- **[Call Transfer](https://voipano.com/features/call-transfer)** — Transfers calls among agents, extensions, and departments.
+- **[Smart Call Distribution](https://voipano.com/features/smart-call-distribution)** — Routes calls according to queues and agent availability.
+- **[Customer-Specific Routing Rules](https://voipano.com/features/customer-call-rules)** — Defines custom routing, allowlists, and restrictions for callers.
+- **[Agent Call Controls](https://voipano.com/features/operator-call-tools)** — Provides conferencing, speed dial, and in-call controls.
 
-## Open Source and Collaboration
+### Agents, Teams & Queues
 
-Our public repositories provide SDK source code, release history, and issue tracking.
+Tools to organize teams and manage day-to-day contact center operations.
 
-We welcome actionable bug reports and integration feedback through the relevant repository's GitHub Issues.
+- **[Call Queues](https://voipano.com/features/call-queue)** — Organizes waiting callers and connects them to available agents.
+- **[Extension Management](https://voipano.com/features/extension-management)** — Creates and manages extensions and agents from an admin panel.
+- **[Work Shifts and Business Hours](https://voipano.com/features/working-shifts)** — Defines call behavior during working hours, after hours, and holidays.
+- **[Contact Management](https://voipano.com/features/contact-management)** — Stores and organizes contacts for faster access and follow-up.
+- **[Voicemail](https://voipano.com/features/voicemail)** — Receives and stores callers' voice messages for later review.
+- **[Remote Calling and Softphone Access](https://voipano.com/features/mobile-softphone-app)** — Connects team extensions from mobile devices or computers.
+- **[Role-Based Access Control](https://voipano.com/features/role-based-access)** — Assigns access appropriate to agents, supervisors, and administrators.
+- **[Browser Webphone](https://voipano.com/features/browser-webphone)** — Answers calls directly in the Voipano web interface.
 
-## Connect With Voipano
+### Reporting, Quality & Automation
 
-- **Official Website:** https://voipano.com
-- **GitHub Organization:** https://github.com/voipano
-- **Contact:** info@voipano.com
+Operational insight, customer context, and repeatable workflows.
+
+- **[Call Recording](https://voipano.com/features/call-recording)** — Records and archives selected or all calls for review.
+- **[Call Reports](https://voipano.com/features/call-reports)** — Searches, filters, and exports call records.
+- **[CRM Integration](https://voipano.com/features/crm-integration)** — Helps display customer records and log call history in connected CRM systems.
+- **[Event-Driven SMS](https://voipano.com/features/event-sms-panel)** — Sends messages or links in response to call events.
+- **[Call Automation](https://voipano.com/features/call-automation)** — Executes configured response and notification workflows.
+- **[Persian Management Dashboard](https://voipano.com/features/online-management-panel)** — Manages calls, extensions, and settings in a Persian-language interface with Jalali dates.
+- **[Custom Hold Music and Announcements](https://voipano.com/features/custom-hold-audio)** — Plays custom audio during holding, transfers, and queues.
+- **[Phone Surveys](https://voipano.com/features/call-surveys)** — Collects caller feedback at call end or while queuing.
+- **[Advanced Call Analytics](https://voipano.com/features/advanced-call-analytics)** — Examines call trends, queues, and team performance indicators.
+- **[Live Call Monitoring and Controls](https://voipano.com/features/live-call-monitoring)** — Enables supervisors to monitor calls and use coaching or intervention controls.
+- **[Outbound Auto Dialer](https://voipano.com/features/outbound-dialer)** — Runs outbound calling campaigns using configurable dialing policies.
+- **[Call Notes and History](https://voipano.com/features/call-notes-history)** — Records shared notes, customer context, and follow-up history.
+- **[Messaging Integrations](https://voipano.com/features/messaging-integrations)** — Connects contact-center workflows with supported messaging channels.
+
+### Cloud Infrastructure & Access
+
+Flexible access methods and continuity-oriented call features.
+
+- **[Fallback Call Routing](https://voipano.com/features/fallback-calling)** — Forwards calls to alternate paths if an agent loses internet access.
+- **[Multilingual IVR](https://voipano.com/features/multilingual-ivr)** — Offers separate voice-menu paths for callers in different languages.
+- **[Nationwide Phone Number Coverage](https://voipano.com/features/nationwide-number-coverage)** — Supports choosing regional area codes for a local business presence.
+- **[Multi-Device Support](https://voipano.com/features/multi-device-support)** — Works with mobile, desktop, and compatible VoIP desk phones.
+- **[Cloud Deployment](https://voipano.com/features/no-hardware-deployment)** — Supports starting without an on-premises PBX or extensive telephone cabling.
+- **[REST API Access](https://voipano.com/features/rest-api-access)** — Connects telephony workflows to internal and custom business software.
+
+## Built for developers
+
+Voipano also provides public API tooling and official SDKs for supported integrations:
+
+| Ecosystem | Official SDK | Package |
+| --- | --- | --- |
+| JavaScript / TypeScript | [Node.js SDK](https://github.com/voipano/node-voipano) | [npm: `voipano`](https://www.npmjs.com/package/voipano) |
+| Python | [Python SDK](https://github.com/voipano/python-voipano) | [PyPI: `voipano`](https://pypi.org/project/voipano/) |
+| PHP / Laravel | [Laravel SDK](https://github.com/voipano/laravel-voipano) | [Packagist: `voipano/laravel`](https://packagist.org/packages/voipano/laravel) |
+
+SDKs cover supported parts of the Voipano Public API; **not every platform feature is necessarily exposed through every SDK**. Refer to each repository for installation, authentication, examples, release notes, and supported operations.
+
+**[Browse all Voipano repositories →](https://github.com/orgs/voipano/repositories)**
+The public repository directory is the maintained source of truth for new tools, integrations, examples, and future projects. This profile intentionally avoids a fixed repository count.
+
+## Getting started
+
+1. **Explore the platform:** start with the [Voipano website](https://voipano.com) and the linked product features above.
+2. **Integrate with APIs:** review the [Call Center API](https://voipano.com/call-center-api) and select an official SDK when appropriate.
+3. **Build securely:** keep credentials out of source control, use secure secret storage, and avoid publishing customer or call data.
+4. **Collaborate:** use the appropriate public repository's Issues for actionable technical feedback and bug reports.
+
+## Connect
+
+- **Website:** [voipano.com](https://voipano.com)
+- **GitHub:** [github.com/voipano](https://github.com/voipano)
+- **Email:** [info@voipano.com](mailto:info@voipano.com)
 
 ---
 
-**Voipano — Building developer-friendly cloud communication technology.**
+*Voipano — connecting business telephony, automation, and AI-assisted communications.*
