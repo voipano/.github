@@ -1,6 +1,6 @@
-# Voipano
+# Voipano | AI-Powered Cloud Call Center
 
-**AI-powered contact center · Cloud telephony · Programmable voice communications**
+**Intelligent Voice Agents · Cloud Telephony · Developer APIs**
 
 **Voipano (ویپانو)** develops cloud telephony, contact center, voice automation, and developer integration capabilities for businesses. Our platform brings calling, call routing, team operations, analytics, and AI-assisted communication workflows into a connected environment.
 
